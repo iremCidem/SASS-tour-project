@@ -1,0 +1,76 @@
+.book {
+    background-image: linear-gradient(to right, rgba($color-primary-light, 0.6), rgba($color-primary-dark, 0.6)), url("../img/nat-10.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 28rem;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 1rem 1rem rgba($color-black, .3);
+    position: relative;
+
+
+    &-form {
+        width: 70%;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+
+
+
+    }
+
+}
+
+.form {
+
+    text-align: center;
+
+    &-text {
+        padding: 1rem auto;
+        margin-bottom: 1rem;
+
+    }
+
+    .text {
+
+        padding: 1rem 2rem;
+        display: block;
+        width: 80%;
+        border: none;
+
+
+        &:focus {
+            outline: none;
+            border-bottom: 4px solid $color-primary-dark;
+        }
+    }
+
+    .email {
+        padding: 1rem 2rem;
+        display: block;
+        width: 80%;
+        border: none;
+
+        &:focus {
+            outline: none;
+            border-bottom: 4px solid $color-primary-dark;
+        }
+    }
+
+
+
+    &-group-2 {
+        font-size: 1rem;
+        color: white;
+    }
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,49 @@
+.footer {
+    background-color: $color-grey-dark;
+    padding: 3rem;
+
+    &-logo {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    &-alt {
+        display: flex;
+        justify-content: space-between;
+
+
+
+
+    }
+
+    &-list {
+
+        width: 40%;
+        margin: 10px;
+        text-align: center;
+        border-top: 2px solid $color-grey;
+
+
+
+    }
+
+    &-paragraph {
+
+        width: 40%;
+        margin: 10px;
+        text-align: center;
+        color: $color-grey;
+        border-top: 2px solid $color-grey;
+
+    }
+
+    &-link {
+        text-decoration: none;
+        color: $color-grey;
+        padding-right: 5px;
+
+        &:hover {
+            color: $color-primary-dark;
+        }
+    }
+}

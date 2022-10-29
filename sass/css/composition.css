@@ -1,0 +1,14 @@
+.composition {
+  position: relative;
+}
+.composition-photo {
+  position: absolute;
+}
+.composition-photo-p1 {
+  top: 20px;
+  left: 20px;
+}
+.composition-photo-p2 {
+  top: 0;
+  left: 20px;
+}/*# sourceMappingURL=composition.css.map */

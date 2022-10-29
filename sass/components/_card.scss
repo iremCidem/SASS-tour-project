@@ -1,0 +1,102 @@
+.card {
+
+    perspective: 130rem;
+    -moz-perspective: 130rem;
+    position: relative;
+    height: 22rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, .6);
+
+    &-side {
+        color: $color-white;
+        margin-bottom: 8rem;
+        height: 22rem;
+
+        transition: all .2s;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+
+
+    }
+
+    &:not(:last-child) {
+        margin-right: 5rem;
+    }
+
+    &:hover .front {
+        transform: rotateY(180deg);
+    }
+
+    &:hover .back {
+
+        transform: rotateY(0);
+    }
+
+}
+
+.front {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+
+
+
+    &-1 {
+        background-image: linear-gradient(to right, rgba($color-secondary, 0.7), rgba($color-secondary, 0.7)), url("../../img/nat-5.jpg");
+
+    }
+
+    &-2 {
+        background-image: linear-gradient(to right, rgba($color-primary-dark, 0.7), rgba($color-primary-dark, 0.7)), url("../../img/nat-6.jpg");
+    }
+
+    &-3 {
+        background-image: linear-gradient(to right, rgba($color-tertiary, 0.7), rgba($color-tertiary, 0.7)), url("../../img/nat-7.jpg");
+    }
+
+}
+
+.back {
+    text-align: center;
+    padding: 4rem;
+
+
+    transform: rotateY(180deg);
+
+    &-1 {
+        background-color: $color-secondary;
+    }
+
+    &-2 {
+        background-color: $color-primary-dark;
+    }
+
+    &-3 {
+        background-color: $color-tertiary
+    }
+}
+
+.card-heading {
+    padding: 2rem 0;
+
+}
+
+li {
+    padding-bottom: 12px;
+    list-style: none;
+}
+
+.span-1 {
+    background-color: darken($color-secondary , .3);
+}
+
+.span-2 {
+    background-color: darken($color-primary-dark , .3);
+}
+
+.span-3 {
+    background-color: darken($color-tertiary , .3);
+}

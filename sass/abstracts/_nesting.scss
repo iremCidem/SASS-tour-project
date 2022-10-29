@@ -1,0 +1,19 @@
+.logo {
+    //burada da bir nesting yöntemi kullanıyoruz.
+    height: 35px;
+
+    &-box {
+        position: absolute;
+        /* parent elementi header olduğu için ona göre konumlanması adına headera da relative verdik.*/
+        top: 40px;
+        left: 40px;
+    }
+
+
+
+    &:hover {
+        animation: rotate 2s;
+
+    }
+
+}

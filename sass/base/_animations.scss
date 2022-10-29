@@ -1,0 +1,69 @@
+@keyframes moveinleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+        /*ilk pozisyon -100 */
+    }
+
+    80% {
+        transform: translateX(10px);
+        /*orta pozisyon oa göre 10ilerde */
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        /*son pozisyon 0(ilk bulunduğu konum).*/
+    }
+}
+
+@keyframes moveinright {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+        /*ilk pozisyon -100 */
+    }
+
+    80% {
+        transform: translateX(-10px);
+        /*orta pozisyon oa göre 10ilerde */
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        /*son pozisyon 0(ilk bulunduğu konum).*/
+    }
+}
+
+@keyframes rotate {
+    0% {
+
+        transform: rotate(50deg)
+    }
+
+    50% {
+        transform: rotate(150deg)
+    }
+
+    100% {
+
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes button {
+    0% {
+
+        transform: translateY(30px)
+    }
+
+
+
+    100% {
+
+        transform: translateY(0)
+    }
+}

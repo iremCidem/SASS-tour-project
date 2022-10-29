@@ -1,0 +1,53 @@
+.feature {
+
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url("../img/nat-4.jpg");
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+
+    &-row {
+
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+
+
+    &-box {
+        margin: 1rem;
+        background-color: $color-white;
+        padding: 1rem;
+        text-align: center;
+        font-size: 1rem;
+        border-radius: 7px;
+        box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .7);
+
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+
+
+
+
+        &-text {
+
+            padding: 6px 0;
+            font-size: 16px;
+            text-align: center;
+        }
+
+    }
+
+
+
+
+
+
+
+}
